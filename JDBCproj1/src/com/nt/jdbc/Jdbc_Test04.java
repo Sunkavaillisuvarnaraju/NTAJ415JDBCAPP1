@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 //MAY-24
 
-//This Application is meant for to find employee Details using starting and ending name of the employee
+//This Application is meant for to find employee Details using starting of the employee
 
 
 public class Jdbc_Test04 {
@@ -53,7 +53,7 @@ public class Jdbc_Test04 {
 					System.out.println(rs.getInt(1)+"   "+rs.getString(2)+"  "+rs.getString(3)+"  "+rs.getFloat(4)+"  "+rs.getInt(5));
 				}//while
 				if(count==0) {
-					System.out.println("No Records Found::");
+					System.out.println("No Records Found::"+count);
 				}
 			}//try
 				catch(SQLException se) {
