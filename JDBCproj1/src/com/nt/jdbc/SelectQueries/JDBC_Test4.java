@@ -1,4 +1,4 @@
-package com.nt.jdbc;
+package com.nt.jdbc.SelectQueries;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,7 +12,7 @@ import java.util.Scanner;
 //This Application is meant for to find employee Details using starting of the employee
 
 
-public class Jdbc_Test04 {
+public class JDBC_Test4 {
 
 	public static void main(String[] args) {
 			Scanner sc=null;

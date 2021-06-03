@@ -1,4 +1,4 @@
-package com.nt.jdbc;
+package com.nt.jdbc.SelectQueries;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,7 +8,7 @@ import java.sql.Statement;
 /*
  * This is the second application of Jdbc  
  */
-public class Jdbc_Test02 {
+public class JDBC_Test2 {
 
 	public static void main(String[] args)throws Exception {
 		//To Load the OracleDriver class into JVM

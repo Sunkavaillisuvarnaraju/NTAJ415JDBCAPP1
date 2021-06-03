@@ -1,4 +1,4 @@
-package com.nt.jdbc;
+package com.nt.jdbc.SelectQueries;
 
 //Date MAY- 22nd
 
@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 // Requirement to get the emp details from emp table based on their designations
 
-public class JDBC_Test03 {
+public class JDBC_Test3 {
 
 			public static void main(String[] args) {
 				Scanner sc=null;

@@ -1,4 +1,4 @@
-package com.nt.jdbc;
+package com.nt.jdbc.SelectQueries;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

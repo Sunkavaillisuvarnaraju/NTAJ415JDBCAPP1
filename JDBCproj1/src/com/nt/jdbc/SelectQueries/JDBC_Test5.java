@@ -1,4 +1,4 @@
-package com.nt.jdbc;
+package com.nt.jdbc.SelectQueries;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,7 +8,7 @@ import java.sql.Statement;
 import java.util.Scanner;
 
 //This Application is meant for finding the name of an employee whose name is ending with user choice
-public class JDBC_Test05 {
+public class JDBC_Test5 {
 
 	public static void main(String[] args) {
 		Scanner sc=null;
