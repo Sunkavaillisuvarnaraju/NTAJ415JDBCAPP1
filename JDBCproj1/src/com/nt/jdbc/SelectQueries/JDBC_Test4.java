@@ -49,9 +49,11 @@ public class JDBC_Test4 {
 				System.out.println("The Employee Details are::");
 				int count=0;
 				while(rs.next()) {
-					count++;
+				 count++;
 					System.out.println(rs.getInt(1)+"   "+rs.getString(2)+"  "+rs.getString(3)+"  "+rs.getFloat(4)+"  "+rs.getInt(5));
+				
 				}//while
+				
 				if(count==0) {
 					System.out.println("No Records Found::"+count);
 				}
